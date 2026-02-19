@@ -3,7 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import "../../assets/css/premium.css";
 import musicFile from "../../assets/music/icarus inttumental.mpeg";
 // ─────────────────────────────────────────────
-//  CONFIG  – ganti data di sini tiap project
+//  CONFIG – customize data here for each project
 // ─────────────────────────────────────────────
 export const CONFIG = {
   guestName: "Dear Guest",
@@ -11,13 +11,13 @@ export const CONFIG = {
   groom: {
     fullName: "Marcus Leonardo Hartmann",
     nickname: "Marcus",
-    parents: "Putra dari Bapak Michael Hartmann & Ibu Victoria Hartmann",
+    parents: "Son of Mr. Michael Hartmann & Mrs. Victoria Hartmann",
     photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
   },
   bride: {
     fullName: "Sophie Catherine Anderson",
     nickname: "Sophie",
-    parents: "Putri dari Bapak James Thompson & Ibu Margaret Thompson",
+    parents: "Daughter of Mr. James Thompson & Mrs. Margaret Thompson",
     photo: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80",
   },
 
@@ -35,22 +35,22 @@ export const CONFIG = {
   },
 
   // Target countdown
-  weddingDateTime: "2025-04-12T08:00:00",
+  weddingDateTime: "2026-06-15T14:00:00",
 
   // Google Calendar link (otomatis)
   calendarTitle: "Pernikahan Marcus & Sophie",
-  calendarStart: "20250412T010000Z",
-  calendarEnd: "20250412T070000Z",
+  calendarStart: "20260615T130000Z",
+  calendarEnd: "20260615T160000Z",
 
   // Google Maps embed (St. Paul's Cathedral, London)
   mapEmbedUrl:
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.5256895346305!2d-0.09852432346870197!3d51.51366877107861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604c38c8cd809%3A0xb78f2474b9410c0!2sSt%20Paul%27s%20Cathedral!5e0!3m2!1sen!2suk!4v1609459200000!5m2!1sen!2suk",
   mapDirectionUrl: "https://maps.google.com/?q=St+Paul's+Cathedral+London",
 
-  // YouTube Live (pakai video publik sebagai placeholder)
+  // YouTube Live (public video as placeholder)
   streamEmbedId: "jfKfPfyJRdk",
 
-  // Music (Royalty-free dari SoundHelix)
+  // Music (royalty-free from SoundHelix)
   musicUrl: musicFile,
   musicTitle: "Wedding Strings Melody",
 
@@ -98,7 +98,7 @@ export const CONFIG = {
       desc: "By the lakeside at sunset, Marcus bravely proposed to Sophie with all his heart.",
     },
     {
-      year: "2025",
+      year: "2026",
       title: "Wedding",
       icon: "💒",
       desc: "We will unite before God and family to begin a new life filled with blessings.",
@@ -107,24 +107,24 @@ export const CONFIG = {
 
   // Gallery – max 14 fotos
   photos: [
-    { src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80", alt: "Foto 1" },
-    { src: "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=600&q=80", alt: "Foto 2" },
-    { src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80", alt: "Foto 3" },
-    { src: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&q=80", alt: "Foto 4" },
-    { src: "https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=600&q=80", alt: "Foto 5" },
-    { src: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=600&q=80", alt: "Foto 6" },
-    { src: "https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=600&q=80", alt: "Foto 7" },
-    { src: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&q=80", alt: "Foto 8" },
-    { src: "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=600&q=80", alt: "Foto 9" },
-    { src: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600&q=80", alt: "Foto 10" },
-    { src: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=600&q=80", alt: "Foto 11" },
-    { src: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&q=80", alt: "Foto 12" },
-    { src: "https://images.unsplash.com/photo-1469371670807-013ccf25f16a?w=600&q=80", alt: "Foto 13" },
-    { src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=900&q=80", alt: "Foto 14" },
-    { src: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=900&q=80", alt: "Foto 15" },
+    { src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80", alt: "Photo 1" },
+    { src: "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=600&q=80", alt: "Photo 2" },
+    { src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80", alt: "Photo 3" },
+    { src: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&q=80", alt: "Photo 4" },
+    { src: "https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=600&q=80", alt: "Photo 5" },
+    { src: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=600&q=80", alt: "Photo 6" },
+    { src: "https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=600&q=80", alt: "Photo 7" },
+    { src: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&q=80", alt: "Photo 8" },
+    { src: "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=600&q=80", alt: "Photo 9" },
+    { src: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600&q=80", alt: "Photo 10" },
+    { src: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=600&q=80", alt: "Photo 11" },
+    { src: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&q=80", alt: "Photo 12" },
+    { src: "https://images.unsplash.com/photo-1469371670807-013ccf25f16a?w=600&q=80", alt: "Photo 13" },
+    { src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=900&q=80", alt: "Photo 14" },
+    { src: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=900&q=80", alt: "Photo 15" },
   ],
 
-  // Turut Mengundang
+  // Together With
   turut: [
     "Hartmann Family",
     "Thompson Family",
@@ -317,7 +317,7 @@ function Countdown() {
   const calUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(
     CONFIG.calendarTitle
   )}&dates=${CONFIG.calendarStart}/${CONFIG.calendarEnd}&details=${encodeURIComponent(
-    `Pemberkatan: ${CONFIG.akad.time} — ${CONFIG.akad.venue}\nResepsi: ${CONFIG.resepsi.time} — ${CONFIG.resepsi.venue}`
+    `Ceremony: ${CONFIG.akad.time} — ${CONFIG.akad.venue}\nReception: ${CONFIG.resepsi.time} — ${CONFIG.resepsi.venue}`
   )}&location=${encodeURIComponent(CONFIG.resepsi.address)}`;
 
   return (
@@ -573,10 +573,10 @@ function WeddingGift() {
 }
 
 // ─────────────────────────────────────────────
-//  WEDDING WISH (Ucapan) + RSVP
+//  WEDDING WISHES + RSVP
 // ─────────────────────────────────────────────
 function WeddingWish() {
-  const [form, setForm] = useState({ name: "", wish: "", attend: "Hadir" });
+  const [form, setForm] = useState({ name: "", wish: "", attend: "Attending" });
   const [wishes, setWishes] = useState([
     {
       name: "David Mitchell",
@@ -594,13 +594,13 @@ function WeddingWish() {
   const handleSubmit = () => {
     if (!form.name.trim() || !form.wish.trim()) return;
     setWishes((prev) => [{ ...form }, ...prev]);
-    setForm({ name: "", wish: "", attend: "Hadir" });
+    setForm({ name: "", wish: "", attend: "Attending" });
     setSent(true);
     setTimeout(() => setSent(false), 3000);
   };
 
   const waText = encodeURIComponent(
-    `Halo, saya ${form.name || "Tamu"} ingin mengkonfirmasi kehadiran saya pada pernikahan ${CONFIG.groom.nickname} & ${CONFIG.bride.nickname}.\n\nKehadiran: ${form.attend}\n\nUcapan: ${form.wish}`
+    `Hello, I'm ${form.name || "Guest"} and I'd like to confirm my attendance at the wedding of ${CONFIG.groom.nickname} & ${CONFIG.bride.nickname}.\n\nAttendance: ${form.attend}\n\nMessage: ${form.wish}`
   );
 
   return (
@@ -669,13 +669,13 @@ function WeddingWish() {
 }
 
 // ─────────────────────────────────────────────
-//  TURUT MENGUNDANG
+//  TOGETHER WITH
 // ─────────────────────────────────────────────
-function TurutMengundang() {
+function TogetherWith() {
   return (
     <section className="section turut-section">
       <RevealBox>
-        <SectionHeader label="Together With" title="Bersama Keluarga" />
+        <SectionHeader label="Together With" title="Alongside Our Families" />
       </RevealBox>
       <div className="turut__list">
         {CONFIG.turut.map((t, i) => (
@@ -706,7 +706,7 @@ function Closing() {
         <p className="closing__note">
           We would be honored and delighted if you could join us and share your blessings.
         </p>
-        <p className="closing__hashtag">#MarcusSophie2025</p>
+        <p className="closing__hashtag">#MarcusSophie2026</p>
         <p className="closing__made">Made with ♥ · Premium Wedding Invitation</p>
       </div>
     </div>
@@ -775,7 +775,7 @@ export default function Wedding() {
           <LiveStream />
           <WeddingGift />
           <WeddingWish />
-          <TurutMengundang />
+          <TogetherWith />
           <Closing />
           <MusicPlayer autoplay={true} />
         </main>
