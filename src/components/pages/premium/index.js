@@ -120,7 +120,8 @@ export const CONFIG = {
     { src: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=600&q=80", alt: "Foto 11" },
     { src: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&q=80", alt: "Foto 12" },
     { src: "https://images.unsplash.com/photo-1469371670807-013ccf25f16a?w=600&q=80", alt: "Foto 13" },
-    { src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80", alt: "Foto 14" },
+    { src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=900&q=80", alt: "Foto 14" },
+    { src: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=900&q=80", alt: "Foto 15" },
   ],
 
   // Turut Mengundang
