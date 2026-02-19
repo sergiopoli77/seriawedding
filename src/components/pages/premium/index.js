@@ -22,13 +22,13 @@ export const CONFIG = {
   },
 
   akad: {
-    date: "Saturday, 12 April 2025",
+    date: "Saturday, 15 June 2026",
     time: "14.00 – 16.00 GMT",
     venue: "St. Paul's Cathedral",
     address: "St. Paul's Churchyard, London EC4M 8AD, United Kingdom",
   },
   resepsi: {
-    date: "Saturday, 12 April 2025",
+    date: "Saturday, 15 June 2026",
     time: "17.30 – 22.00 GMT",
     venue: "The Savoy Hotel",
     address: "The Strand, London WC2R 0EU, United Kingdom",
@@ -38,7 +38,7 @@ export const CONFIG = {
   weddingDateTime: "2026-06-15T14:00:00",
 
   // Google Calendar link (otomatis)
-  calendarTitle: "Pernikahan Marcus & Sophie",
+  calendarTitle: "Wedding of Marcus & Sophie",
   calendarStart: "20260615T130000Z",
   calendarEnd: "20260615T160000Z",
 
