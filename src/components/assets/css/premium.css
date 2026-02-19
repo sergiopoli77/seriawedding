@@ -40,6 +40,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html {
@@ -65,6 +66,28 @@ button, a {
   cursor: pointer;
   text-decoration: none;
   font-family: var(--font-body);
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  user-select: none;
+}
+
+button:focus, a:focus {
+  outline: none;
+}
+
+button:active, a:active {
+  outline: none;
+}
+
+/* Remove selection highlight */
+::selection {
+  background: transparent;
+  color: inherit;
+}
+
+::-moz-selection {
+  background: transparent;
+  color: inherit;
 }
 
 ::-webkit-scrollbar {
